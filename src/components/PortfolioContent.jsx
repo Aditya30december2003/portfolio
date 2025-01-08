@@ -1,0 +1,66 @@
+'use client'
+import { ProjectCard } from '@/components/ProjectCard'
+import { motion } from 'framer-motion'
+import Image from 'next/image';
+const projects = [
+  {
+    title: "Techistlab",
+    company: "Techistlab",
+    year: "24-25",
+    description: "Transforming ideas into digital excellence",
+    image: "/techistlab.png",
+    link: "https://techistlab.co.uk/"
+  },
+  {
+    title: "hostelEats",
+    company: "hostelEats",
+    year: "23",
+    description: "The Best Foods Delivered",
+    image: "/hosteleats.png",
+    link: "#"
+  },
+  {
+    title: "BlogBuster",
+    company: "BlogBuster",
+    year: "24",
+    description: "Revolutionizing blogging.",
+    image: "/blogbuster.png",
+    link: "#"
+  },
+  {
+    title: "Netflix",
+    company: "Netflix Clone",
+    year: "23",
+    description: "Building connections through gaming.",
+    image: "/netflix.png",
+    link: "#"
+  },
+  {
+    title: "Linkedin",
+    company: "Linkedin Clone",
+    year: "24",
+    description: "Building connections through gaming.",
+    image: "/linkedin.png",
+    link: "#"
+  }
+]
+
+export default function PortfolioContent() {
+  return (
+    <motion.div 
+      className="min-h-screen p-8"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="w-full lg:max-w-[870px] mx-auto">
+        <div className="grid grid-cols-1  gap-20">
+          {projects.map((project, index) => (
+            <ProjectCard key={index} {...project} index={index} />
+          ))}
+        </div>
+      </div>
+    </motion.div>
+  )
+}
+
