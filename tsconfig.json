@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/portfolio/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/portfolio/page.jsx", "src/components/background-animation.jsx", "src/components/fiverr-gigs.jsx"],
   "exclude": ["node_modules"]
 }

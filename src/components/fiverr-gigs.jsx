@@ -4,8 +4,6 @@ import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useKeenSlider } from 'keen-slider/react'
-import 'keen-slider/keen-slider.min.css'
-import { TypeAnimation } from "react-type-animation";
 
 gsap.registerPlugin(ScrollTrigger)
 
