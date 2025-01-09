@@ -2,9 +2,10 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname , useRouter} from 'next/navigation';
 
 const Navbar = () => {
+  const route = useRouter();
   const pathname = usePathname();
   const [showSubNav, setShowSubNav] = useState(pathname === '/');
 
@@ -17,14 +18,16 @@ const Navbar = () => {
                     bg-opacity-30 border border-gray-100 transition-all duration-300 ease-in-out`}>
         <div className="flex items-center p-1">
           {/* Main Navigation */}
-          <Link
-            href="/"
+          <div
             className={`cursor-pointer rounded-[4rem] px-6 py-2 transition-colors duration-200
                      ${isActive('/') ? 'bg-gray-600/70' : 'hover:bg-white hover:bg-opacity-10'}`}
-            onClick={() => setShowSubNav(true)}
+            onClick={() => {
+              route.push('/')
+              setShowSubNav(true)
+            }}
           >
             Home
-          </Link>
+          </div>
           <Link
             href="/portfolio"
             className={`cursor-pointer px-6 py-2 transition-colors duration-200 rounded-[4rem]
