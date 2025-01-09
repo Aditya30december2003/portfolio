@@ -40,17 +40,17 @@ const Navbar = () => {
             <div className="h-4 w-px bg-gray-400 mx-2" /> {/* Divider */}
             <ul className="flex whitespace-nowrap pr-6">
               <li className="px-3">
-                <a href="#about" className="hover:text-gray-300 transition-colors duration-200">
+                <a href="#about" className="hover:text-gray-300 text-[0.8rem] transition-colors duration-200">
                   About
                 </a>
               </li>
               <li className="px-3">
-                <a href="#contact" className="hover:text-gray-300 transition-colors duration-200">
+                <a href="#contact" className="hover:text-gray-300 text-[0.8rem] transition-colors duration-200">
                   Contact
                 </a>
               </li>
               <li className="px-3">
-                <a href="#skills" className="hover:text-gray-300 transition-colors duration-200">
+                <a href="#skills" className="hover:text-gray-300 text-[0.8rem] transition-colors duration-200">
                   Skills
                 </a>
               </li>

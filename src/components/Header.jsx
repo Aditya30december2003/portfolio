@@ -33,15 +33,17 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center justify-between px-2 lg:px-10 py-2 lg:py-5 w-full bg-black/95 lg:bg-transparent">
         <div className="w-[50%] lg:w-[15%]">
-          <h1 className="text-[2rem] lg:text-[1.3rem] font-bold">Aditya Jain</h1>
-          <h1 className="text-[1.2rem] lg:text-[0.8rem]">Web Developer</h1>
+          <h1 className="text-[1.3rem] lg:text-[1.5rem] font-bold">Aditya Jain</h1>
+          <h1 className="text-[1rem] lg:text-[0.8rem]">Web Developer</h1>
         </div>
 
         <Navbar className="w-[70%]" />
 
-        <div className="w-[13%] p-2 text-[0.9rem] font-semibold lg:flex justify-between hidden">
-          <button className="hover:opacity-80 transition-opacity">Resume</button>
-          <button className="hover:opacity-80 transition-opacity">Hire Me</button>
+        <div className="w-[13%] p-2 text-[1rem] font-semibold lg:flex justify-between hidden">
+          <button onClick={()=>window.open('/Aditya Jain_CV_Resume_NEW_Online.pdf' , '_blank')} className="hover:opacity-80 transition-opacity">
+          Resume
+          </button>
+          <Link href='https://www.fiverr.com/aditya30122003?public_mode=true' target='_blank' className="hover:opacity-80 transition-opacity">Hire Me</Link>
         </div>
 
         <button 

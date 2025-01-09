@@ -28,7 +28,7 @@ export default function Portfolio() {
               transition={{ duration: 0.8 }}
               className="max-w-[950px] mx-auto pt-24"
             >
-              <h1 className="text-3xl glow glow-icon md:text-4xl lg:text-6xl leading-tight mb-8 font-semibold">
+              <h1 className="text-2xl glow glow-icon md:text-4xl lg:text-6xl leading-tight mb-8 font-semibold">
               I design digital experiences,
                 <br />
                 build seamless interactions <span className="italic">and craft compelling stories</span>.

@@ -24,7 +24,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="p-10 text-white">
+    <div className="pt-12 lg:pt-20 text-white" id='skills'>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -47,9 +47,9 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className="bg-red-500 background">
+    <div className="bg-red-500 background mt-5">
       <section className="max-w-screen-xl mx-auto px-6">
-        <div className="flex items-center space-x-3 mb-12">
+        <div className="flex items-center space-x-3 mb-4">
           <GoDotFill className="text-white text-xl" />
           <h1 className="text-[0.85rem] font-extrabold text-white">MY EXPERIENCE</h1>
         </div>

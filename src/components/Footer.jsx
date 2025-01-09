@@ -20,43 +20,43 @@ const Footer = () => {
             <h3 className='text-[0.7rem] font-bold mb-4 text-gray-600'>SOCIAL LINKS</h3>
             <ul className='space-y-2'>
               <li>
-                <Link href="https://github.com/yourusername" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="https://github.com/Aditya30december2003" target="_blank"  className='flex items-center hover:text-gray-300 transition-colors'>
                   GitHub
                   <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="https://linkedin.com/in/yourusername" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="https://www.linkedin.com/in/aditya-jain-065484226/" target="_blank" className='flex items-center hover:text-gray-300 transition-colors'>
                   LinkedIn
                   <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="https://twitter.com/yourusername" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="https://x.com/AdityaJ47361990" target="_blank" className='flex items-center hover:text-gray-300 transition-colors'>
                   Twitter
                   <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="mailto:your.email@example.com" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="mailto:adityasmjain@gmail.com"  target="_blank" className='flex items-center hover:text-gray-300 transition-colors'>
                   Email
                   <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="https://linktr.ee/yourusername" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="https://aditya30december2003.github.io/Link_Tree/" target="_blank" className='flex items-center hover:text-gray-300 transition-colors'>
                   Linktree
                   <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="https://leetcode.com/yourusername" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="https://leetcode.com/u/leo100demigod/" target="_blank" className='flex items-center hover:text-gray-300 transition-colors'>
                   LeetCode
                   <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.fiverr.com/yourusername" className='flex items-center hover:text-gray-300 transition-colors'>
+                <Link href="https://www.fiverr.com/aditya30122003?public_mode=true" target="_blank" className='flex items-center hover:text-gray-300 transition-colors'>
                   {/* <TbBrandFiverr className='w-5 h-5 mr-2' /> */}
                   Fiverr
                   <GoArrowUpRight />
@@ -68,25 +68,25 @@ const Footer = () => {
           <h3 className='text-[0.7rem] font-bold mb-4 text-gray-600'>SOCIAL LINKS</h3>
             <ul className='space-y-2'>
               <li>
-                <Link href="/portfolio" className='hover:text-gray-300 transition-colors flex items-center'>
+                <Link href="/portfolio" target="_blank" className='hover:text-gray-300 transition-colors flex items-center'>
                  <p>Portfolio</p> 
                  <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="/services" className='hover:text-gray-300 transition-colors flex items-center'>
+                <Link href="" target="_blank" className='hover:text-gray-300 transition-colors flex items-center'>
                  <p>Services</p> 
                  <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="/testimonials" className='hover:text-gray-300 transition-colors flex items-center'>
+                <Link href=""  target="_blank" className='hover:text-gray-300 transition-colors flex items-center'>
                 <p>Testimonials</p>
                 <GoArrowUpRight />
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className='hover:text-gray-300 transition-colors flex items-center'>
+                <Link href=""  target="_blank" className='hover:text-gray-300 transition-colors flex items-center'>
                   <p>Contact</p>
                   <GoArrowUpRight />
                 </Link>

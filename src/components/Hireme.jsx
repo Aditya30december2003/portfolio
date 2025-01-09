@@ -18,9 +18,9 @@ const HireMe = () => {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative bg-black py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section ref={sectionRef} className="relative bg-black py-20 px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden" id='contact'>
       <BackgroundAnimation />
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10 pt-20">
         <div className="text-center text-white mb-12">
           <h2 
             ref={headingRef} 

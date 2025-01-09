@@ -16,7 +16,7 @@ export function ProjectCard({ title, company, year, description, image, link, in
       }}
       className='p-2 border-2 border-gray-500/40 rounded-md shadow-[1px_5px_20px_2px_#a0aec0]'
     >
-      <Link href={link}>
+      <Link href={link} target='_blank'>
         <motion.div 
           className="group relative rounded-xl card-bg overflow-hidden cursor-pointer border border-white/10 p-2"
           whileHover={{ scale: 1.05, y: -10 }}
@@ -56,11 +56,11 @@ export function ProjectCard({ title, company, year, description, image, link, in
           {/* Browser Frame */}
           <div className="mt-4">
             <motion.div 
-              className="bg-[#2D2D2D] rounded-lg shadow-xl"
+              className="bg-[#000000] rounded-lg shadow-xl"
               whileHover={{ y: -5 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="h-9 bg-[#3C3C3C] rounded-t-lg flex justify-between items-center px-4 border-b border-white/5">
+              <div className="h-9 bg-[#2b2b2b] lg:bg-[#515050] rounded-t-lg flex justify-between items-center px-4 border-b border-white/5">
                 <div className="flex items-center gap-4">
                   <div className="flex gap-2">
                     {/* <motion.div 

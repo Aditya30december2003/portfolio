@@ -17,7 +17,7 @@ const projects = [
     year: "23",
     description: "The Best Foods Delivered",
     image: "/hosteleats.png",
-    link: "#"
+    link: "https://aditya30december2003.github.io/Food_Delivery_App/"
   },
   {
     title: "BlogBuster",
@@ -25,7 +25,7 @@ const projects = [
     year: "24",
     description: "Revolutionizing blogging.",
     image: "/blogbuster.png",
-    link: "#"
+    link: "https://blo-g-buster30.vercel.app/"
   },
   {
     title: "Netflix",
@@ -33,7 +33,7 @@ const projects = [
     year: "23",
     description: "Building connections through gaming.",
     image: "/netflix.png",
-    link: "#"
+    link: "https://batflix-seven.vercel.app/"
   },
   {
     title: "Linkedin",
@@ -41,7 +41,7 @@ const projects = [
     year: "24",
     description: "Building connections through gaming.",
     image: "/linkedin.png",
-    link: "#"
+    link: "https://linkedin-ten-blond.vercel.app/"
   }
 ]
 
