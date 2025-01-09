@@ -104,12 +104,12 @@ const Header = () => {
           </div>
           
           <div className="pt-8 flex flex-col space-y-4 mt-auto">
-            <button className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition-colors">
+            <button onClick={()=>window.open('/Aditya Jain_CV_Resume_NEW_Online.pdf' , '_blank')} className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition-colors">
               Resume
             </button>
-            <button className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition-colors">
+            <Link href='https://www.fiverr.com/aditya30122003?public_mode=true' className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition-colors">
               Hire Me
-            </button>
+            </Link>
           </div>
         </nav>
       </div>
