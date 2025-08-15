@@ -4,45 +4,61 @@ import { motion } from 'framer-motion'
 import Image from 'next/image';
 const projects = [
   {
+    title: "Phedaz",
+    company: "Phedaz Website",
+    year: "25",
+    description: "Soar beyond limits.",
+    image: "/Phedaz.png",
+    link: "https://phedaz.com/"
+  },
+  {
     title: "Techistlab",
     company: "Techistlab",
     year: "24-25",
-    description: "Transforming ideas into digital excellence",
+    description: "Transforming ideas into digital excellence.",
     image: "/techistlab.png",
     link: "https://techistlab.co.uk/"
   },
-  {
-    title: "hostelEats",
-    company: "hostelEats",
-    year: "23",
-    description: "The Best Foods Delivered",
-    image: "/hosteleats.png",
-    link: "https://aditya30december2003.github.io/Food_Delivery_App/"
-  },
-  {
-    title: "BlogBuster",
-    company: "BlogBuster",
-    year: "24",
-    description: "Revolutionizing blogging.",
-    image: "/blogbuster.png",
-    link: "https://blo-g-buster30.vercel.app/"
-  },
-  {
-    title: "Netflix",
-    company: "Netflix Clone",
-    year: "23",
-    description: "Building connections through gaming.",
-    image: "/netflix.png",
-    link: "https://batflix-seven.vercel.app/"
-  },
-  {
-    title: "Linkedin",
-    company: "Linkedin Clone",
-    year: "24",
-    description: "Building connections through gaming.",
-    image: "/linkedin.png",
-    link: "https://linkedin-ten-blond.vercel.app/"
+    {
+    title: "Perktify",
+    company: "Perktify",
+    year: "25",
+    description: "Simplify your path from startup to star.",
+    image: "/perktify.png",
+    link: "https://perktify.com/"
   }
+  // {
+  //   title: "hostelEats",
+  //   company: "hostelEats",
+  //   year: "23",
+  //   description: "The Best Foods Delivered",
+  //   image: "/hosteleats.png",
+  //   link: "https://aditya30december2003.github.io/Food_Delivery_App/"
+  // },
+  // {
+  //   title: "BlogBuster",
+  //   company: "BlogBuster",
+  //   year: "24",
+  //   description: "Revolutionizing blogging.",
+  //   image: "/blogbuster.png",
+  //   link: "https://blo-g-buster30.vercel.app/"
+  // },
+  // {
+  //   title: "Netflix",
+  //   company: "Netflix Clone",
+  //   year: "23",
+  //   description: "Building connections through gaming.",
+  //   image: "/netflix.png",
+  //   link: "https://batflix-seven.vercel.app/"
+  // },
+  // {
+  //   title: "Linkedin",
+  //   company: "Linkedin Clone",
+  //   year: "24",
+  //   description: "Building connections through gaming.",
+  //   image: "/linkedin.png",
+  //   link: "https://linkedin-ten-blond.vercel.app/"
+  // }
 ]
 
 export default function PortfolioContent() {
