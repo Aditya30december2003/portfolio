@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       const data = await response.json();
       const output = data?.[0]?.generated_text || "Sorry, I couldn't generate a response.";
       res.status(200).json({ reply: output });
-    } catch (err) {
+    } catch {
       res.status(500).json({ error: "Hugging Face request failed." });
     }
   }
